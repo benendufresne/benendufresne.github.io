@@ -33,6 +33,8 @@ github_username:  benendufresne
 theme: minima
 minima:
   skin: solarized-light
+sass:
+  quiet_deps: true # color-functions and global-builtin functions are deprecated and will be removed in Dart Sass 3.0.0
 plugins:
   - jekyll-feed
 header_pages:
