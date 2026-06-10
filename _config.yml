@@ -35,6 +35,9 @@ minima:
   skin: solarized-light
 plugins:
   - jekyll-feed
+header_pages:
+  - index.markdown
+  - about.markdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
