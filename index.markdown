@@ -5,11 +5,15 @@
 layout: page
 title: Home
 ---
-![Basic photo of Benen]({{ '/assets/images/profile.jpg' | relative_url }}){: style="display:block; margin:0 auto;"}
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1; padding-right: 10px;">
+    <img src= "{{ site.url }}+/assets/images/profile.jpg" alt="Profile photo of Benen" />
+  </div>
+  <div style="flex: 1;">
+    <p>Hello, I am a software automation developer. My goal is to use the advantages of cloud computing & modern automation tools to streamline existing software interaction, or to construct new software to stay on top of growing areas in one's business or projects.</p>
+  </div>
+</div>
 
 ***
 <br> 
-Hello, I am a software automation developer. My goal is to use the advantages of cloud computing & modern automation tools to streamline existing software interaction, or to construct new software to stay on top of growing areas in one's business or projects.
-
-
-[relative_url]: https://github.com/benendufresne.github.io
